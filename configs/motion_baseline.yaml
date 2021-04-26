@@ -1,0 +1,12 @@
+DATA:
+  USE_MOTION: True
+
+MODEL:
+  NAME: "dual-stream"
+  BERT_TYPE: "ROBERTA"
+  BERT_NAME: "roberta-large"
+  car_idloss: True
+  mo_idloss: True
+  share_idloss: True
+TRAIN: 
+  BATCH_SIZE: 64

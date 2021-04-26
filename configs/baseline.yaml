@@ -1,0 +1,11 @@
+DATA:
+  USE_MOTION: False
+
+MODEL:
+  NAME: "base"
+  BERT_TYPE: "BERT"
+  car_idloss: False
+  mo_idloss: False
+  share_idloss: False
+TRAIN: 
+  BATCH_SIZE: 12
