@@ -3,6 +3,11 @@
 
 ![framework](imgs/framework.jpg)
 
+We have two codebases. For the final submission, we conduct the feature ensemble, where features are from two codebases.
+
+Part One is at here: https://github.com/ShuaiBai623/AIC2021-T5-CLV
+
+Part Two is at here: https://github.com/layumi/NLP-AICity2021
 
 ## Prepare
 -  Preprocess the dataset to prepare `frames, motion maps, NLP augmentation`
@@ -13,7 +18,7 @@
 
 ` scripts/deal_nlpaug.py` is a Python script that is used for NLP augmentation.
 
-- Download the pretrained models of Part One to  `checkpoints`. The checkpoints can be found [here](https://drive.google.com/drive/folders/1LAtP_CkNsM9ZDHlcr2PVmrR6f7YI-AQK?usp=sharing).
+- Download the pretrained models of Part One to  `checkpoints`. The checkpoints can be found [here](https://drive.google.com/drive/folders/1LAtP_CkNsM9ZDHlcr2PVmrR6f7YI-AQK?usp=sharing). The best score of a single model on TestA is 0.1927 from `motion_effb3_NOCLS_nlpaug_320.pth`.
 
 The directory structures in `data` and `checkpoints` are as follows：
 ```
@@ -69,6 +74,10 @@ python -u test.py --config configs/motion_effb2_1CLS_nlpaug_288.yaml
 python -u test.py --config configs/motion_SE_3CLS_nonlpaug_288.yaml
 python -u test.py --config configs/motion_SE_NOCLS_nonlpaug_288.yaml
 ```
+
+## Part Two
+
+[Link](https://github.com/layumi/NLP-AICity2021)
 
 ## Submission
 
