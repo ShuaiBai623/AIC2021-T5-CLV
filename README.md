@@ -80,3 +80,7 @@ During the inference, we average all the frame features of the target in each tr
 python scripts/get_submit.py
 
 ```
+
+## Friend Links：
+- https://github.com/layumi/Vehicle_reID-Collection 
+- https://github.com/layumi/NLP-AICity2021 
